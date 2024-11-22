@@ -22,7 +22,6 @@
 		047D062B2CF092A4007A624D /* StandardSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D061E2CF092A4007A624D /* StandardSection.swift */; };
 		047D062D2CF092F6007A624D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D062C2CF092F6007A624D /* SceneDelegate.swift */; };
 		04AE00062CF071A10039AA43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE00052CF071A10039AA43 /* AppDelegate.swift */; };
-		04AE000A2CF071A10039AA43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE00092CF071A10039AA43 /* ViewController.swift */; };
 		04AE000F2CF071A30039AA43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE000E2CF071A30039AA43 /* Assets.xcassets */; };
 		F9CCEBECCD3C9E0D33260116 /* Pods_Task_xcode15_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9696BB94AF1E28EA18D9F0B4 /* Pods_Task_xcode15_0.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +43,6 @@
 		047D062C2CF092F6007A624D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04AE00022CF071A10039AA43 /* Task_xcode15.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task_xcode15.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE00052CF071A10039AA43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04AE00092CF071A10039AA43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04AE000E2CF071A30039AA43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AE00132CF071A30039AA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69E5B2E45456DACA2C5342AB /* Pods-Task_xcode15.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task_xcode15.0.release.xcconfig"; path = "Target Support Files/Pods-Task_xcode15.0/Pods-Task_xcode15.0.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,7 +144,6 @@
 				047D061B2CF092A4007A624D /* UI */,
 				04AE00052CF071A10039AA43 /* AppDelegate.swift */,
 				047D062C2CF092F6007A624D /* SceneDelegate.swift */,
-				04AE00092CF071A10039AA43 /* ViewController.swift */,
 				04AE000E2CF071A30039AA43 /* Assets.xcassets */,
 				04AE00132CF071A30039AA43 /* Info.plist */,
 			);
@@ -288,7 +285,6 @@
 				047D06202CF092A4007A624D /* SettingsViewModel.swift in Sources */,
 				047D06282CF092A4007A624D /* UIView+Extension.swift in Sources */,
 				047D062A2CF092A4007A624D /* Form.swift in Sources */,
-				04AE000A2CF071A10039AA43 /* ViewController.swift in Sources */,
 				047D06222CF092A4007A624D /* SettingsViewController.swift in Sources */,
 				047D06232CF092A4007A624D /* HomeViewController.swift in Sources */,
 				047D062B2CF092A4007A624D /* StandardSection.swift in Sources */,
