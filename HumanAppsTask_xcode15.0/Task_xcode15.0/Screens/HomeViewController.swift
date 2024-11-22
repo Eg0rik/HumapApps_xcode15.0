@@ -131,6 +131,7 @@ class HomeViewController: UIViewController {
 private extension HomeViewController {
     func setupView() {
         view.addSubviews(editedView, topBackgroundView, segmentedControlImageFilter, borderWidthSlider)
+        view.backgroundColor = .white
         
         photoPicker.delegate = self
     }
