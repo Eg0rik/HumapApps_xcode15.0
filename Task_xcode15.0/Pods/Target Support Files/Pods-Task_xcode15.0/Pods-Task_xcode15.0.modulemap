@@ -1,0 +1,6 @@
+framework module Pods_Task_xcode15_0 {
+  umbrella header "Pods-Task_xcode15.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

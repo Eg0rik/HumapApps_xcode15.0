@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '15.0'
+use_frameworks!
+
+target 'Task_xcode15.0' do
+    pod 'SnapKit', '~> 5.7.0'
+end
