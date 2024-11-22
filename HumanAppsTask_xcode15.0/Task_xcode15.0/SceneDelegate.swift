@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Task_xcode15.0
+//  HumanAppsTask
 //
-//  Created by MAC on 11/22/24.
+//  Created by MAC on 11/14/24.
 //
 
 import UIKit
@@ -19,8 +19,42 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
-        window?.rootViewController = ViewController()
+        start(window: window)
+    }
+    
+    func start(window: UIWindow?) {
+        window?.rootViewController = makeUITabBarController()
         window?.makeKeyAndVisible()
+    }
+    
+    func makeUITabBarController() -> UITabBarController {
+        let tabBarController = UITabBarController()
+        
+        tabBarController.viewControllers = [
+            makeHomeViewController(),
+            makeSettingsViewController()
+        ]
+        
+        tabBarController.tabBar.backgroundColor = .brandLightGray
+        tabBarController.selectedIndex = 0
+        
+        return tabBarController
+    }
+    
+    func makeHomeViewController() -> UIViewController {
+        return UINavigationController(rootViewController: HomeViewController(photoPicker: PhotoLibraryPicker()))
+    }
+
+    func makeSettingsViewController() -> UIViewController {
+        return UINavigationController(rootViewController: SettingsViewController(viewModel: .init()))
     }
 }
 
+//FIXME: delete later
+func makeControllerForPreview() -> UIViewController {
+    SceneDelegate().makeUITabBarController()
+}
+
+#Preview {
+    makeControllerForPreview()
+}
